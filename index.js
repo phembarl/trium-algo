@@ -17,7 +17,7 @@ app.all('*', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT || 5000, () => {
   console.log(`> app is being served on port ${PORT}`);
 });
 
