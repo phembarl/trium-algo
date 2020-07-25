@@ -10,6 +10,10 @@ app.use(express.urlencoded({ extended: true }));
 
 app.post('/most-word', checkString, findMostWord);
 
+app.get('/', (req, res) => {
+  res.send('<h1>Welcome to Trium Algo</h1>');
+});
+
 app.all('*', (req, res) => {
   res.status(404).json({
     status: 404,
