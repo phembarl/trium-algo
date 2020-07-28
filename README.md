@@ -40,7 +40,7 @@ branch. Please follow the guide of the Pull Request Template provided.
 
 ## Links
 
-- Repository: https://github.com/phembarl/trium-algo.git
+- Repository: https://github.com/phembarl/trium-algo
 
 ## Author
 
